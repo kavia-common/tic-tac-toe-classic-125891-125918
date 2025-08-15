@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+
+    <!-- Status/feedback strings -->
+    <string name="turn">Turn: %1$s</string>
+    <string name="player_wins">Player %1$s wins!</string>
+    <string name="draw">Draw!</string>
+    <string name="restart">Restart</string>
+
+    <!-- Placeholder to avoid layout preview warnings -->
+    <string name="turn_placeholder">Turn: X</string>
+</resources>

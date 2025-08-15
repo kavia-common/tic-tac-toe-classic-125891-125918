@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette -->
+    <color name="primary">#1976D2</color>
+    <color name="secondary">#424242</color>
+    <color name="accent">#FFEB3B</color>
+
+    <!-- UI specifics -->
+    <color name="board_cell_bg">#FFFFFF</color>
+</resources>
