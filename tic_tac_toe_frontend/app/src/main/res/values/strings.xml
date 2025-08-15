@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic Tac Toe Classic</string>
+    <string name="turn_player_x">Player X turn</string>
+    <string name="turn_player_o">Player O turn</string>
+    <string name="win_x">Player X wins!</string>
+    <string name="win_o">Player O wins!</string>
+    <string name="status_draw">Draw!</string>
+    <string name="restart">Restart</string>
+</resources>

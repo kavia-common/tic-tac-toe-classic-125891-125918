@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- Turn Indicator -->
+    <TextView
+        android:id="@+id/tvTurnIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/turn_player_x"
+        android:textColor="@color/colorSecondary"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Centered 3x3 Grid -->
+    <GridLayout
+        android:id="@+id/gridBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_centerInParent="true">
+
+        <!-- Row 0 -->
+        <Button
+            android:id="@+id/cell0"
+            style="@style/CellButtonStyle" />
+        <Button
+            android:id="@+id/cell1"
+            style="@style/CellButtonStyle" />
+        <Button
+            android:id="@+id/cell2"
+            style="@style/CellButtonStyle" />
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/cell3"
+            style="@style/CellButtonStyle" />
+        <Button
+            android:id="@+id/cell4"
+            style="@style/CellButtonStyle" />
+        <Button
+            android:id="@+id/cell5"
+            style="@style/CellButtonStyle" />
+
+        <!-- Row 2 -->
+        <Button
+            android:id="@+id/cell6"
+            style="@style/CellButtonStyle" />
+        <Button
+            android:id="@+id/cell7"
+            style="@style/CellButtonStyle" />
+        <Button
+            android:id="@+id/cell8"
+            style="@style/CellButtonStyle" />
+
+    </GridLayout>
+
+    <!-- Status Message (Winner/Draw Announcement) -->
+    <TextView
+        android:id="@+id/tvStatusMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorSecondary"
+        android:textSize="18sp"
+        android:layout_below="@id/gridBoard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Restart Button -->
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_below="@id/tvStatusMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
